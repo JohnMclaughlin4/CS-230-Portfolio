@@ -2,7 +2,7 @@
 
 Project: The Gaming Room — Draw It or Lose It.    
 
-Course: CS 230: Operating Platforms
+Course: CS 230: Operating Platforms    
 Focus: Software Design, Platform Evaluation, and Object-Oriented Architecture
 
 The Gaming Room was a client that wanted to expand its existing Android game, Draw It or Lose It, into a web-based application that could run across multiple platforms. The goal was to design software that would allow users to access the game from desktop and mobile environments while keeping the game experience consistent. The application needed to support multiple games, teams, and players, while also ensuring that game and team names remained unique. To meet these requirements, the design used object-oriented programming principles, including inheritance, encapsulation, and the singleton pattern.
