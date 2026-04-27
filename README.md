@@ -1,7 +1,6 @@
 #Software Design Document & Reflection
 
 Project: The Gaming Room — Draw It or Lose It.    
-
 Course: CS 230: Operating Platforms    
 Focus: Software Design, Platform Evaluation, and Object-Oriented Architecture
 
