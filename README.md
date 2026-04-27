@@ -1,1 +1,17 @@
-# CS-230-Portfolio
+#Software Design Document & Reflection
+
+#Project: The Gaming Room — Draw It or Lose It
+#Course: CS 230: Operating Platforms
+#Focus: Software Design, Platform Evaluation, and Object-Oriented Architecture
+
+The Gaming Room was a client that wanted to expand its existing Android game, Draw It or Lose It, into a web-based application that could run across multiple platforms. The goal was to design software that would allow users to access the game from desktop and mobile environments while keeping the game experience consistent. The application needed to support multiple games, teams, and players, while also ensuring that game and team names remained unique. To meet these requirements, the design used object-oriented programming principles, including inheritance, encapsulation, and the singleton pattern.
+
+One area I believe I did particularly well was connecting the client’s business needs to clear technical recommendations. The Gaming Room needed a scalable, maintainable, and platform-flexible solution, so I recommended a web-based architecture supported by a Linux server environment and a Java-based application layer. I also clearly organized the major classes, including Entity, Game, Team, Player, and GameService, to show how the system would manage shared data, enforce uniqueness, and support future growth.
+
+Working through the software design document was helpful because it encouraged me to think through the structure of the application before focusing on implementation. Defining the requirements, constraints, domain model, and architecture helped me better understand how each class should function and how the overall system should be organized. This process made the code easier to develop because the responsibilities of each class were already clearly identified.
+
+If I could revise one part of the document, I would improve the evaluation section by making the platform comparisons more concise and consistent. I would ensure that Mac, Linux, Windows, and mobile platforms were evaluated using the same criteria, such as cost, scalability, compatibility, security, and development effort. This would make the final recommendation even stronger and easier for stakeholders to compare.
+
+I interpreted the user’s needs by focusing on the client’s main goal: expanding the game beyond Android while maintaining a reliable and consistent user experience. Because the client wanted multi-platform access, I recommended a browser-based solution rather than separate native applications for each operating system. Because the application needed to prevent duplicate game and team names, I included centralized management through the GameService class. Considering user needs is important because successful software must solve the client’s actual problem, not just meet technical requirements. A strong design should support usability, maintainability, scalability, and long-term business goals.
+
+My approach to designing the software was to begin with the requirements, identify the major objects in the system, and define how those objects should interact. I used object-oriented design, inheritance, encapsulation, UML modeling, and design pattern analysis to create a structure that was organized and maintainable. In future projects, I would continue using design documents, diagrams, requirement analysis, and platform evaluations before development begins. These techniques help reduce errors, improve planning, and create software that is better aligned with client needs.
